@@ -9,6 +9,11 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: Joulescope-SN
+    attributes:
+      label: Joulescope serial number
+      description: Please copy serial number in back of Joulescope
   - type: dropdown
     id: version
     attributes:
@@ -38,6 +43,8 @@ body:
         - Windows
         - Linux
         - Mac OS X
+      validations:
+        required: true
   - type: textarea
     id: what-happened
     attributes:
@@ -47,8 +54,4 @@ body:
       value: "Steps to reproduce + Description and expectation"
     validations:
       required: true
-  - type: input
-    id: Joulescope-SN
-    attributes:
-      label: Joulescope serial number
-      description: Please copy serial number in back of Joulescope
+
