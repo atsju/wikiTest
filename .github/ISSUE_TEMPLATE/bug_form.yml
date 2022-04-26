@@ -48,8 +48,24 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen? And how to reproduce?
-      value: "Steps to reproduce + Description and expectation"
+      placeholder: I encountered a bug
+    validations:
+      required: true
+  - type: textarea
+    id: what-expected
+    attributes:
+      label: What was expected?
+      placeholder: UI should not crash
+    validations:
+      required: true
+  - type: textarea
+    id: how-reproduce
+    attributes:
+      label: How to reproduce?
+      value: |
+        1. |
+        2. |
+        3. |
     validations:
       required: true
   - type: textarea
@@ -58,4 +74,3 @@ body:
       label: Extra information
       description: Tell us anything that has not been explicitelly asked but could help us.
       placeholder: Tell us anything usefull
-      
