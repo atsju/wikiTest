@@ -43,8 +43,6 @@ body:
         - Windows
         - Linux
         - Mac OS X
-      validations:
-        required: true
   - type: textarea
     id: what-happened
     attributes:
