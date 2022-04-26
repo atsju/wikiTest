@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
+title: "[Bug]: UPDATE TITLE"
 labels: ["bug", "triage"]
 assignees:
   - mliberty1
@@ -52,4 +52,10 @@ body:
       value: "Steps to reproduce + Description and expectation"
     validations:
       required: true
-
+  - type: textarea
+    id: extra-info
+    attributes:
+      label: Extra information
+      description: Tell us anything that has not been explicitelly asked but could help us.
+      placeholder: Tell us anything usefull
+      
