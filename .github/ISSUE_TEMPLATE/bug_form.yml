@@ -37,6 +37,7 @@ body:
     id: Environment
     attributes:
       label: What OS are you seeing the problem on?
+      description: You can select multiple OS
       multiple: true
       options:
         - Windows
@@ -63,9 +64,9 @@ body:
     attributes:
       label: How to reproduce?
       value: |
-        1. |
-        2. |
-        3. |
+        1. ...
+        2. ...
+        3. ...
     validations:
       required: true
   - type: textarea
