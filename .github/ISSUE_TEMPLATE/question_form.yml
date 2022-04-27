@@ -30,6 +30,13 @@ body:
         - 0.9.0
     validations:
       required: true
+  - type: textarea
+    id: Question
+    attributes:
+      label: Your question
+      placeholder: How to ...
+    validations:
+      required: true
   - type: dropdown
     id: Environment
     attributes:
@@ -47,10 +54,3 @@ body:
         - Linux Ubuntu amd64 (PC)
         - Linux Ubuntu arm64 (Raspberry Pi 4)
         - Other (describe below)
-  - type: textarea
-    id: Question
-    attributes:
-      label: Your question
-      placeholder: How to ...
-    validations:
-      required: true
