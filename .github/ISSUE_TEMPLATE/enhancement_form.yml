@@ -11,7 +11,7 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
+      label: UI version
       description: What version of our software are you running?
       options:
         - 0.9.11
@@ -31,7 +31,7 @@ body:
   - type: dropdown
     id: Environment
     attributes:
-      label: What OS are you seeing the problem on?
+      label: Does your idea concern a specific OS?
       description: You can select multiple OS
       multiple: true
       options:

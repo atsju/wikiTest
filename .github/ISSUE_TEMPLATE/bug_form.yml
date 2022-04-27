@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug report
 description: File a bug report
 title: "[Bug]: UPDATE TITLE"
 labels: ["bug", "triage"]
@@ -16,7 +16,7 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
+      label: UI version
       description: What version of our software are you running?
       options:
         - 0.9.11
